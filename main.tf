@@ -174,7 +174,7 @@ resource "aws_instance" "dev" {
   ami           = "${var.dev_ami}"
 
   tags {
-    Name = "wordpress-instance"
+    Name = "hello-instance"
   }
 
   key_name               = "${aws_key_pair.auth.id}"
